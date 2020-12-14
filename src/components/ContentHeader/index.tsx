@@ -6,11 +6,12 @@ import {
   InnerNav,
   NavImage,
   LogoDiv,
-  ButtonsList
+  ButtonsList,
+  WelcomeText
 } from './styles';
 
 
-const Header: React.FC = () => {
+const ContentHeader: React.FC = () => {
   return (
     <>
       <NavBar>
@@ -43,13 +44,14 @@ const Header: React.FC = () => {
               </li>
             </ul>
           </ButtonsList>
-
-
-
         </InnerNav>
       </NavBar>
+
+      <WelcomeText>
+        Welcome to L2 Rox
+      </WelcomeText>
     </>
   );
 };
 
-export default Header;
+export default ContentHeader;

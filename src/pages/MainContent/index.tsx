@@ -2,12 +2,17 @@ import React from 'react';
 
 import { Main } from './styles';
 
-import Header from '../../components/Header';
+import ContentHeader from '../../components/ContentHeader';
+import ServerInfo from '../../components/ServerInfo';
 
 const Dashboard: React.FC = () => {
   return (
     <Main>
-      <Header />
+      <header>
+        <ContentHeader />
+      </header>
+      <ServerInfo />
+
     </Main>
   );
 };

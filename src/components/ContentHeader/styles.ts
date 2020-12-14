@@ -105,5 +105,22 @@ export const ButtonsList = styled.div`
   }
 `;
 
+export const WelcomeText = styled.h1`
+  margin-top: 300px;
+  margin-left: 700px;
+  position: absolute;
+
+  font-size: 70px;
+  
+  font-weight: 500;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.07;
+  letter-spacing: 1.5px;
+  color: #2A2626;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+`;
+
 
 
